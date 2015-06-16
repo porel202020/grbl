@@ -224,7 +224,7 @@
 // WARNING: When the pull-ups are disabled, this requires additional wiring with pull-down resistors!
 #define DISABLE_LIMIT_PIN_PULL_UP
 #define DISABLE_PROBE_PIN_PULL_UP
-//#define DISABLE_CONTROL_PIN_PULL_UP
+#define DISABLE_CONTROL_PIN_PULL_UP
 
 // Sets which axis the tool length offset is applied. Assumes the spindle is always parallel with 
 // the selected axis with the tool oriented toward the negative direction. In other words, a positive
